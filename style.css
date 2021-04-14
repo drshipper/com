@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background: #ffff;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+
+.navbar-brand {
+	font-family: calibri;
+	font-size: 37px;
+}
+
+.container {
+	width:100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.card {
+	width:250px;
+	height:200px;
+	margin-right: 70px;
+	align-items: center;
+	display: inline;
+	justify-content: center;
+	align-items: center;
+	background: #FFFF;
+	text-align: center;
+	border: none;
+	position: relative;
+}
+
+.details  {
+    width: 100%;
+    height: auto;
+	position:relative;
+	z-index: 1;
+	margin-top: 290px;
+	margin-left: 70px;
+
+}
+
+.row  {
+	margin-top: 30px;
+	margin-left: 30px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFF;
+}
+
+.judul {
+	margin-left:30px
+	background: #FFFF00;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner  {
+	width: 2000px;
+}
+
+.container-fluid {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}   
+
+
+
+
+.alamat {
+	width: 100%;
+	background: #6495ED;
+	color: #ffff;
+}
+
+.mdr-container  {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details {
+		position: relative;
+		width: 300px;
+		height: 30px;
+		margin-top:120px;
+	    margin-left:25px;
+	}
+	
+	.carousel-slide {
+		width: 100%;
+		height:auto;
+	}
+
+	.card   {
+		width: 30%;
+		height: auto;
+
+	}
+	.card-text {
+		width: 30%;
+		height: auto;
+	}
+	.banner  {
+	width: 100%;
+}
+
+    .container-lg {
+	margin-right: 50px;
+
+}
+}
+
